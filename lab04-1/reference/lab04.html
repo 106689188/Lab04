@@ -4,7 +4,10 @@
   <meta charset="utf-8" />
   <meta name="description" content="Demonstrates some basic HTML content elements and CSS" />
   <meta name="keywords" content="HTML5, tags" />
-  <meta name="author" content="A Lecturer"  />
+  <meta name="author" content="Hassan Abbas"  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="student-id" content="106689188" />
+  <link rel="stylesheet" href="../../styles/lab04.css">
   <title>HTML Structure and Content Elements + CSS</title>
   
 </head>
@@ -15,7 +18,7 @@
      <nav>
          <a href="#headings">Heading and Paragraphs</a> 
          <a href="#sc">Special Characters</a> 
-         <a href="#lists">Lists</a> 
+         <a href="#list">Lists</a> 
          <a href="#tables">Tables</a>
          <a href="#images">Images</a>
          <a href="#hyperlinks">Hyperlinks</a>
@@ -26,11 +29,11 @@
    <article>   
    <h2>HTML5 Basic Elements</h2> 
       <aside>
-         <p>HTML page without CCS styling looks a bit boring!!</p>
+         <p>HTML page without CSS styling looks a bit boring!!</p>
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="headings-title">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
@@ -94,13 +97,13 @@
         </thead>
         <tbody>
          <tr>
-           <th scope="row">Jan</th>
+           <th class="month" scope="row">Jan</th>
            <td>$60</td>
            <td>$40</td>
            <td>$100</td>
          </tr>
          <tr>
-           <th scope="row">Feb</th>
+           <th class="month" scope="row">Feb</th>
            <td>$40</td>
            <td>$40</td>
            <td>$80</td>
@@ -121,13 +124,13 @@
 	  
       <h2 id="images">Images</h2>
       <p>This thumbnail image is used as a hyperlink to a larger version of the image</p>
-      <a href="images/mycat.jpg">  <img src="images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb " /></a>
 
+<a href="../images/mycat.jpg"> <img src="../images/mycat_small.jpg"  alt="Photo of my cat"title="Filesize 222kb"> </a>
       
       <hr />
    </article>
 	<footer>
-		<p>Lab04 - Task 3</p>
+		<p>Hassan Abbas | Student ID: 106689188</p>
 	</footer>
 </body>
 
